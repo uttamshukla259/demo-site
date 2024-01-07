@@ -1,0 +1,216 @@
+
+ body {
+     background-color: black;
+     color: white;
+     font-family: sans-serif;
+     width: 100vw;
+     height: 100vh;
+ }
+
+ .head1 {
+     background-color: rgb(31, 31, 31);
+     border-radius: 2rem;
+     width: 30vw;
+     margin:10px auto;
+     padding: 5px ;
+     box-shadow: 2px 2px 2px;
+ }
+ .head2{
+    background-color: rgb(58, 56, 56);
+        border-radius: 2rem;
+        /* width: 30vw; */
+        margin: 1rem;
+        margin: auto 20px 0px 20px;
+        margin-bottom: 15px;
+        box-shadow: 2px 2px 2px;
+ }
+ .banner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+ 
+   
+ }
+ .banner2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+
+  .circle {
+      background-color: rgb(31, 31, 31);
+      border-radius: 50%;
+      width: 40%;
+       padding-bottom: 40%; 
+       margin: 10vh auto; 
+  }
+ .head3{
+    background-color: rgb(25, 84, 173);
+        border-radius: 2rem;
+        width: 30vw;
+        margin: auto;
+ }
+
+ .web1 {
+    text-align: center;
+     margin: 1%;
+     font-size: 1vw;
+   
+     
+ }
+ .web2{
+    text-align: center;
+        margin: 1%;
+        font-size: 2vw;
+         padding: 20px 0px 20px 0px; 
+        /* box-shadow: 2px 2px 2px; */
+ }
+ .web4{
+    text-align: center;
+        margin: 2%;
+        font-size: 1vw;
+         padding: 20px 0px 20px 0px; 
+        /* box-shadow: 2px 2px 2px; */
+ }
+ .p2{
+text-align: center;
+font-size: 2vw;
+margin: 2px;
+ }
+ .p3{
+text-align: center;
+font-size: 1.5vw;
+ }
+
+ .time{
+    display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+ }
+ .t{
+    width: 18vw;
+    background-color: rgb(58, 56, 56);
+    margin: 2px;
+    border-radius: 12px;
+    text-align: center;
+    padding: 5px;
+    font-size: 2vw;
+ }
+ /* Media Query for smaller screens (mobile) */
+  @media screen and (max-width: 700px) {
+    body {
+            background-color: black;
+            margin: 0;
+            padding: 0;
+            color: white;
+            font-family: sans-serif;
+            width: 100vw;
+            height: 100vh;
+        }
+    
+        .head1 {
+            background-color: rgb(31, 31, 31);
+            border-radius: 2rem;
+            width: 90vw;
+            margin: 50px auto;
+            padding: 20px;
+        }
+    
+        .head2 {
+            background-color: rgb(58, 56, 56);
+            border-radius: 2rem;
+            width: 80vw;
+            margin: auto;
+            margin-bottom: 15px;
+        }
+    
+        .circle {
+            background-color: rgb(31, 31, 31);
+            border-radius: 50%;
+            width: 50%;
+            padding-bottom: 50%;
+            margin: 25vh auto;
+        }
+    
+        .head3 {
+            background-color: rgb(25, 84, 173);
+            border-radius: 2rem;
+            width: 80vw;
+            margin: auto;
+        }
+    
+        .web1 {
+            text-align: center;
+            margin: 2%;
+            font-size: 5vw;
+        
+        }
+    
+        .web2 {
+            text-align: center;
+            margin: 2%;
+            font-size: 3vw;
+            padding: 20px 0px 20px 0px;
+        }
+    
+        .p2 {
+            text-align: center;
+            font-size: 4vw;
+        }
+    
+        .p3 {
+            text-align: center;
+            font-size: 6vw;
+        }
+    
+        .time {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    
+        .t {
+            width: 18vw;
+            background-color: rgb(58, 56, 56);
+            margin: 2px;
+            border-radius: 12px;
+            text-align: center;
+            padding: 5px;
+            font-size: 4vw;
+        }
+ } 
+
+ /* Media Query for larger screens (1600px X 900px) */
+ 
+/* @media (min-width: 768px) {
+    .head1 {
+        width: 70vw;
+    }
+
+    .head2 {
+        width: 60vw;
+    }
+
+    .web1 {
+        font-size: 3vw;
+    }
+
+    .web2 {
+        font-size: 2vw;
+    }
+
+    .p2 {
+        font-size: 3vw;
+    }
+
+    .p3 {
+        font-size: 4vw;
+    }
+
+    .t {
+        width: 10vw;
+        font-size: 2vw;
+    }
+} */
